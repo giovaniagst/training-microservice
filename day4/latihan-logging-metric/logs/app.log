@@ -1,0 +1,369 @@
+2024-08-29T14:31:36.951+07:00  INFO 12593 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 12593 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T14:31:36.952+07:00  INFO 12593 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:31:36.965+07:00  WARN 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@5c09d180 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:31:36.965+07:00  WARN 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@3c1e23ff uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:31:36.965+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:31:36.965+07:00  WARN 12593 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@ceb4bd2 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:31:37.187+07:00  INFO 12593 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T14:31:37.205+07:00  INFO 12593 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2024-08-29T14:31:37.263+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6320a5d-3a0c-3308-a801-8e904eae95ff
+2024-08-29T14:31:37.390+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T14:31:37.397+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T14:31:37.397+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T14:31:37.418+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T14:31:37.419+07:00  INFO 12593 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 453 ms
+2024-08-29T14:31:37.479+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T14:31:37.513+07:00  INFO 12593 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T14:31:37.529+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T14:31:37.642+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T14:31:37.656+07:00  INFO 12593 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T14:31:37.763+07:00  INFO 12593 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71eff6a3
+2024-08-29T14:31:37.764+07:00  INFO 12593 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T14:31:37.800+07:00  INFO 12593 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T14:31:38.104+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T14:31:38.125+07:00  INFO 12593 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:31:39.355+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-29T14:31:39.413+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T14:31:40.417+07:00  INFO 12593 --- [latihan-rest-buku] [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2024-08-29T14:31:40.428+07:00  INFO 12593 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 4.825 seconds (process running for 5.142)
+2024-08-29T14:31:43.505+07:00  INFO 12593 --- [latihan-rest-buku] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T14:31:43.505+07:00  INFO 12593 --- [latihan-rest-buku] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T14:31:43.506+07:00  INFO 12593 --- [latihan-rest-buku] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-29T14:32:26.627+07:00  INFO 12593 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:32:26.630+07:00  INFO 12593 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T14:32:26.635+07:00  INFO 12593 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T14:32:44.797+07:00  INFO 12623 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 12623 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T14:32:44.798+07:00  INFO 12623 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T14:32:44.813+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:32:44.814+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:32:44.814+07:00  WARN 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:32:44.814+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:32:44.814+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:32:44.814+07:00  WARN 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:32:44.814+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:32:44.814+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:32:44.814+07:00  WARN 12623 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:32:45.151+07:00  INFO 12623 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T14:32:45.166+07:00  INFO 12623 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-08-29T14:32:45.238+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=779e24cf-0ae6-347a-ae0b-5bffe9894aff
+2024-08-29T14:32:45.465+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T14:32:45.471+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T14:32:45.471+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T14:32:45.490+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T14:32:45.490+07:00  INFO 12623 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 676 ms
+2024-08-29T14:32:45.599+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T14:32:45.625+07:00  INFO 12623 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T14:32:45.641+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T14:32:45.755+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T14:32:45.767+07:00  INFO 12623 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T14:32:45.836+07:00  INFO 12623 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71de1091
+2024-08-29T14:32:45.836+07:00  INFO 12623 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T14:32:45.871+07:00  INFO 12623 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T14:32:46.187+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T14:32:46.208+07:00  INFO 12623 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:32:46.625+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-29T14:32:46.665+07:00  INFO 12623 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T14:32:46.674+07:00  INFO 12623 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 2.208 seconds (process running for 2.67)
+2024-08-29T14:32:46.750+07:00  INFO 12623 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T14:32:46.751+07:00  INFO 12623 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T14:32:46.751+07:00  INFO 12623 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-29T14:35:25.861+07:00  WARN 12623 --- [latihan-rest-buku] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "actuator"]
+2024-08-29T14:35:36.652+07:00  INFO 12623 --- [latihan-rest-buku] [http-nio-8080-exec-1] c.e.l.services.BukuService               : getAll Service Start
+2024-08-29T14:40:48.759+07:00  INFO 12623 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:40:48.763+07:00  INFO 12623 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T14:40:48.773+07:00  INFO 12623 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T14:40:50.404+07:00  INFO 12859 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 12859 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T14:40:50.405+07:00  INFO 12859 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:40:50.421+07:00  WARN 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:40:50.421+07:00  WARN 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T14:40:50.421+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T14:40:50.421+07:00  WARN 12859 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T14:40:50.726+07:00  INFO 12859 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T14:40:50.741+07:00  INFO 12859 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-08-29T14:40:50.800+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=62e6a3cc-a916-32bd-a244-96e1deea3851
+2024-08-29T14:40:51.017+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T14:40:51.023+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T14:40:51.023+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T14:40:51.043+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T14:40:51.043+07:00  INFO 12859 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+2024-08-29T14:40:51.149+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T14:40:51.173+07:00  INFO 12859 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T14:40:51.184+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T14:40:51.283+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T14:40:51.294+07:00  INFO 12859 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T14:40:51.356+07:00  INFO 12859 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5274830e
+2024-08-29T14:40:51.357+07:00  INFO 12859 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T14:40:51.393+07:00  INFO 12859 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T14:40:51.695+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T14:40:51.724+07:00  INFO 12859 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:40:52.157+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T14:40:52.205+07:00  INFO 12859 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T14:40:52.214+07:00  INFO 12859 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 2.134 seconds (process running for 2.611)
+2024-08-29T14:40:52.321+07:00  INFO 12859 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T14:40:52.321+07:00  INFO 12859 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T14:40:52.322+07:00  INFO 12859 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-29T14:41:11.599+07:00  INFO 12859 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T14:41:11.602+07:00  INFO 12859 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T14:41:11.607+07:00  INFO 12859 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T15:14:08.811+07:00  INFO 13611 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 13611 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T15:14:08.815+07:00  INFO 13611 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T15:14:08.840+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:14:08.840+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:14:08.840+07:00  WARN 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:14:08.841+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:14:08.841+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:14:08.841+07:00  WARN 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:14:08.841+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:14:08.841+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:14:08.841+07:00  WARN 13611 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:14:09.305+07:00  INFO 13611 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T15:14:09.322+07:00  INFO 13611 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-08-29T15:14:09.380+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5b4f0704-f908-382e-9e5d-072113ecf7ae
+2024-08-29T15:14:09.633+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T15:14:09.638+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T15:14:09.639+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T15:14:09.658+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T15:14:09.658+07:00  INFO 13611 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 816 ms
+2024-08-29T15:14:09.776+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T15:14:09.803+07:00  INFO 13611 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T15:14:09.815+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T15:14:09.947+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T15:14:09.960+07:00  INFO 13611 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T15:14:10.030+07:00  INFO 13611 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d1deb11
+2024-08-29T15:14:10.031+07:00  INFO 13611 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T15:14:10.075+07:00  INFO 13611 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T15:14:10.399+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T15:14:10.419+07:00  INFO 13611 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:14:10.853+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T15:14:10.903+07:00  INFO 13611 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T15:14:10.912+07:00  INFO 13611 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 2.475 seconds (process running for 2.95)
+2024-08-29T15:14:11.292+07:00  INFO 13611 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T15:14:11.292+07:00  INFO 13611 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T15:14:11.293+07:00  INFO 13611 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-29T15:14:49.072+07:00  INFO 13611 --- [latihan-rest-buku] [http-nio-8080-exec-4] c.e.l.services.BukuService               : getAll Service Start
+2024-08-29T15:15:18.119+07:00  INFO 13611 --- [latihan-rest-buku] [http-nio-8080-exec-6] c.e.l.services.BukuService               : getById Service Start
+2024-08-29T15:15:18.144+07:00 ERROR 13611 --- [latihan-rest-buku] [http-nio-8080-exec-6] c.e.l.services.BukuService               : Buku id 3 not found
+2024-08-29T15:16:50.151+07:00  INFO 13611 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:16:50.154+07:00  INFO 13611 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T15:16:50.162+07:00  INFO 13611 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T15:16:51.745+07:00  INFO 13679 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 13679 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T15:16:51.745+07:00  INFO 13679 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:16:51.761+07:00  WARN 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:16:51.761+07:00  WARN 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:16:51.761+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:16:51.762+07:00  WARN 13679 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:16:52.086+07:00  INFO 13679 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T15:16:52.101+07:00  INFO 13679 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-08-29T15:16:52.157+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6c75ab2-9669-3e50-8b4c-e19603f91208
+2024-08-29T15:16:52.386+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T15:16:52.392+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T15:16:52.392+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T15:16:52.410+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T15:16:52.411+07:00  INFO 13679 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2024-08-29T15:16:52.517+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T15:16:52.540+07:00  INFO 13679 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T15:16:52.551+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T15:16:52.651+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T15:16:52.662+07:00  INFO 13679 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T15:16:52.725+07:00  INFO 13679 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c14d24d
+2024-08-29T15:16:52.725+07:00  INFO 13679 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T15:16:52.756+07:00  INFO 13679 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T15:16:53.052+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T15:16:53.074+07:00  INFO 13679 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:16:53.509+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T15:16:53.554+07:00  INFO 13679 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T15:16:53.563+07:00  INFO 13679 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 2.137 seconds (process running for 2.61)
+2024-08-29T15:16:53.690+07:00  INFO 13679 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T15:16:53.691+07:00  INFO 13679 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T15:16:53.691+07:00  INFO 13679 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-29T15:23:52.080+07:00  INFO 13679 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:23:52.083+07:00  INFO 13679 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T15:23:52.089+07:00  INFO 13679 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T15:23:55.030+07:00  INFO 13871 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Starting LatihanRestBukuApplication using Java 22.0.2 with PID 13871 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T15:23:55.031+07:00  INFO 13871 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:23:55.047+07:00  WARN 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:23:55.047+07:00  WARN 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:23:55.047+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:23:55.047+07:00  WARN 13871 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:23:55.365+07:00  INFO 13871 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T15:23:55.380+07:00  INFO 13871 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-08-29T15:23:55.441+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c6c75ab2-9669-3e50-8b4c-e19603f91208
+2024-08-29T15:23:55.668+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T15:23:55.674+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T15:23:55.674+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T15:23:55.696+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T15:23:55.697+07:00  INFO 13871 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2024-08-29T15:23:55.809+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T15:23:55.829+07:00  INFO 13871 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T15:23:55.840+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T15:23:55.947+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T15:23:55.958+07:00  INFO 13871 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T15:23:56.024+07:00  INFO 13871 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49f41c2e
+2024-08-29T15:23:56.024+07:00  INFO 13871 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T15:23:56.058+07:00  INFO 13871 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T15:23:56.365+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T15:23:56.385+07:00  INFO 13871 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:23:56.802+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T15:23:56.848+07:00  INFO 13871 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T15:23:56.857+07:00  INFO 13871 --- [latihan-rest-buku] [main] c.e.l.LatihanRestBukuApplication         : Started LatihanRestBukuApplication in 2.149 seconds (process running for 2.416)
+2024-08-29T15:23:57.227+07:00  INFO 13871 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T15:23:57.227+07:00  INFO 13871 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T15:23:57.228+07:00  INFO 13871 --- [latihan-rest-buku] [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-29T15:24:05.885+07:00  INFO 13871 --- [latihan-rest-buku] [http-nio-8080-exec-2] c.e.l.services.BukuService               : getById Service Start
+2024-08-29T15:24:05.919+07:00 ERROR 13871 --- [latihan-rest-buku] [http-nio-8080-exec-2] c.e.l.services.BukuService               : Buku id 3 not found
+2024-08-29T15:30:36.284+07:00  INFO 13871 --- [latihan-rest-buku] [http-nio-8080-exec-5] c.e.l.services.BukuService               : getById Service Start
+2024-08-29T15:41:41.244+07:00  INFO 13871 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:41:41.247+07:00  INFO 13871 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T15:41:41.254+07:00  INFO 13871 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T15:44:58.059+07:00  INFO 14274 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : Starting LatihanLoggingMetric using Java 22.0.2 with PID 14274 (/Users/giovaniagst/Downloads/latihan-rest-buku/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-rest-buku)
+2024-08-29T15:44:58.060+07:00  INFO 14274 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T15:44:58.076+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:44:58.077+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:44:58.077+07:00  WARN 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:44:58.077+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:44:58.077+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:44:58.077+07:00  WARN 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:44:58.077+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:44:58.077+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:44:58.077+07:00  WARN 14274 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:44:58.413+07:00  INFO 14274 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T15:44:58.430+07:00  INFO 14274 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2024-08-29T15:44:58.497+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4132ea96-4152-3d2e-a463-69bea1ae3bff
+2024-08-29T15:44:58.730+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T15:44:58.735+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T15:44:58.735+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T15:44:58.754+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T15:44:58.754+07:00  INFO 14274 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 677 ms
+2024-08-29T15:44:58.867+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T15:44:58.892+07:00  INFO 14274 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T15:44:58.905+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T15:44:59.021+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T15:44:59.032+07:00  INFO 14274 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T15:44:59.100+07:00  INFO 14274 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@677c2820
+2024-08-29T15:44:59.101+07:00  INFO 14274 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T15:44:59.138+07:00  INFO 14274 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T15:44:59.457+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T15:44:59.481+07:00  INFO 14274 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:44:59.910+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T15:44:59.954+07:00  INFO 14274 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T15:44:59.963+07:00  INFO 14274 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : Started LatihanLoggingMetric in 2.227 seconds (process running for 2.664)
+2024-08-29T15:45:00.045+07:00  INFO 14274 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T15:45:00.046+07:00  INFO 14274 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T15:45:00.046+07:00  INFO 14274 --- [latihan-rest-buku] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-29T15:45:22.945+07:00  INFO 14274 --- [latihan-rest-buku] [http-nio-8080-exec-5] c.e.l.services.BukuService               : getById Service Start
+2024-08-29T15:45:46.388+07:00  INFO 14274 --- [latihan-rest-buku] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:45:46.390+07:00  INFO 14274 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-29T15:45:46.395+07:00  INFO 14274 --- [latihan-rest-buku] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-29T15:46:51.216+07:00  INFO 14343 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : Starting LatihanLoggingMetric using Java 22.0.2 with PID 14343 (/Users/giovaniagst/Downloads/latihan-logging-metric/target/classes started by giovaniagst in /Users/giovaniagst/Downloads/latihan-logging-metric)
+2024-08-29T15:46:51.216+07:00  INFO 14343 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : No active profile set, falling back to 1 default profile: "default"
+2024-08-29T15:46:51.232+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:46:51.233+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:46:51.233+07:00  WARN 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@737edcfa uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:46:51.233+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:46:51.233+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:46:51.233+07:00  WARN 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@2fb69ff6 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:46:51.233+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-08-29T15:46:51.233+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Exception on Url - http://localhost:8888:org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused. Will be trying the next url if available
+2024-08-29T15:46:51.233+07:00  WARN 14343 --- [latihan-rest-buku] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Could not locate PropertySource ([ConfigServerConfigDataResource@cda4919 uris = array<String>['http://localhost:8888'], optional = true, profiles = 'default']): I/O error on GET request for "http://localhost:8888/latihan-rest-buku/default": Connection refused
+2024-08-29T15:46:51.572+07:00  INFO 14343 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29T15:46:51.587+07:00  INFO 14343 --- [latihan-rest-buku] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2024-08-29T15:46:51.645+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4132ea96-4152-3d2e-a463-69bea1ae3bff
+2024-08-29T15:46:51.887+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-29T15:46:51.893+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-29T15:46:51.893+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-29T15:46:51.913+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-29T15:46:51.913+07:00  INFO 14343 --- [latihan-rest-buku] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 679 ms
+2024-08-29T15:46:52.021+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29T15:46:52.047+07:00  INFO 14343 --- [latihan-rest-buku] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.0.Final
+2024-08-29T15:46:52.060+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-29T15:46:52.178+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29T15:46:52.189+07:00  INFO 14343 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-29T15:46:52.254+07:00  INFO 14343 --- [latihan-rest-buku] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28515443
+2024-08-29T15:46:52.255+07:00  INFO 14343 --- [latihan-rest-buku] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-29T15:46:52.287+07:00  INFO 14343 --- [latihan-rest-buku] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasourcenull]
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-08-29T15:46:52.595+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29T15:46:52.614+07:00  INFO 14343 --- [latihan-rest-buku] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29T15:46:53.036+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoints beneath base path '/actuator'
+2024-08-29T15:46:53.079+07:00  INFO 14343 --- [latihan-rest-buku] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-29T15:46:53.089+07:00  INFO 14343 --- [latihan-rest-buku] [main] c.e.l.LatihanLoggingMetric               : Started LatihanLoggingMetric in 2.217 seconds (process running for 2.486)
+2024-08-29T15:46:53.329+07:00  INFO 14343 --- [latihan-rest-buku] [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29T15:46:53.330+07:00  INFO 14343 --- [latihan-rest-buku] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-29T15:46:53.330+07:00  INFO 14343 --- [latihan-rest-buku] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-29T15:47:04.274+07:00  INFO 14343 --- [latihan-rest-buku] [http-nio-8080-exec-4] c.e.l.services.BukuService               : getById Service Start
+2024-08-29T15:47:07.676+07:00  INFO 14343 --- [latihan-rest-buku] [http-nio-8080-exec-5] c.e.l.services.BukuService               : getAll Service Start
